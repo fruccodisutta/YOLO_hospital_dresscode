@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['bracelet', 'glove', 'hand', 'ring', 'watch']
+
+roboflow:
+  workspace: fruccodisutta
+  project: hands-inspection-v3.0-srhcq
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/fruccodisutta/hands-inspection-v3.0-srhcq/dataset/2
